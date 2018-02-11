@@ -10,13 +10,16 @@ $dep ensure
 
 
 
-##构建
+## 构建
 
 ``` shell
 $ docker build -t ip-notify:0.1 .  
 ```
 
-##部署
+
+
+## 部署
+
 ```shell
 $ docker run -d -it   ip-notify:0.1 
 ```
