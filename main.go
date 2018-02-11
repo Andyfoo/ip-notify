@@ -37,7 +37,7 @@ func sendMail(ip string,preIp string) error {
 	auth := smtp.PlainAuth(
 		"",
 		"benkris1@126.com",
-		"m522267128",
+		"you password",
 		"smtp.126.com",
 	)
 	err :=smtp.SendMail(
